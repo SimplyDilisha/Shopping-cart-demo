@@ -1,6 +1,5 @@
 # Shopping-cart-deo
 This is a menu-driven shopping cart application developed using Python. The program allows users to view products, add items to a cart, remove items, view the cart, and checkout.
-It runs completely in the command-line interface (CLI) and is suitable for beginners learning Python.
 
 ## 🧰 Features
 
@@ -18,21 +17,31 @@ Menu-driven user interaction
 
 ## 🛠️ Technologies Used
 
-Programming Language: Python 3
+a)Programming Language: Python 3
 
-Concepts Used:
+b)Concepts Used:
 
-Dictionaries
+  Dictionaries
 
-Tuples
+  Tuples
 
-Functions
+  Functions
 
-Loops
+  Loops
 
-Conditional statements
+  Conditional statements
 
-Exception handling
+  Exception handling
+
+## 🔒 Input Validation & Error Handling
+
+Accepts only valid product IDs
+
+Prevents zero or negative quantities
+
+Handles non-numeric input using try-except blocks
+
+Ensures smooth execution without crashes
 
 ## ▶️ How to Run the Program
 
@@ -44,5 +53,8 @@ Open terminal / command prompt
 
 Run the command:
 python shopping_cart.py
+
+## 🙌 Acknowledgement
+This project was created as a learning experiment to explore interactive graphics and particle simulations using Pygame.
 
 
